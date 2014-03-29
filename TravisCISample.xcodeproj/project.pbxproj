@@ -1,0 +1,419 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E536F2F418E6BBFC0099C1F1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E536F2F318E6BBFC0099C1F1 /* Foundation.framework */; };
+		E536F2F918E6BBFC0099C1F1 /* TravisCISample.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = E536F2F818E6BBFC0099C1F1 /* TravisCISample.h */; };
+		E536F2FB18E6BBFC0099C1F1 /* TravisCISample.m in Sources */ = {isa = PBXBuildFile; fileRef = E536F2FA18E6BBFC0099C1F1 /* TravisCISample.m */; };
+		E536F30218E6BBFC0099C1F1 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E536F30118E6BBFC0099C1F1 /* XCTest.framework */; };
+		E536F30318E6BBFC0099C1F1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E536F2F318E6BBFC0099C1F1 /* Foundation.framework */; };
+		E536F30518E6BBFC0099C1F1 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E536F30418E6BBFC0099C1F1 /* UIKit.framework */; };
+		E536F30818E6BBFC0099C1F1 /* libTravisCISample.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E536F2F018E6BBFC0099C1F1 /* libTravisCISample.a */; };
+		E536F30E18E6BBFC0099C1F1 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = E536F30C18E6BBFC0099C1F1 /* InfoPlist.strings */; };
+		E536F31018E6BBFC0099C1F1 /* TravisCISampleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E536F30F18E6BBFC0099C1F1 /* TravisCISampleTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E536F30618E6BBFC0099C1F1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E536F2E818E6BBFC0099C1F1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E536F2EF18E6BBFC0099C1F1;
+			remoteInfo = TravisCISample;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		E536F2EE18E6BBFC0099C1F1 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/$(PRODUCT_NAME)";
+			dstSubfolderSpec = 16;
+			files = (
+				E536F2F918E6BBFC0099C1F1 /* TravisCISample.h in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		E536F2F018E6BBFC0099C1F1 /* libTravisCISample.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libTravisCISample.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		E536F2F318E6BBFC0099C1F1 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		E536F2F718E6BBFC0099C1F1 /* TravisCISample-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TravisCISample-Prefix.pch"; sourceTree = "<group>"; };
+		E536F2F818E6BBFC0099C1F1 /* TravisCISample.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TravisCISample.h; sourceTree = "<group>"; };
+		E536F2FA18E6BBFC0099C1F1 /* TravisCISample.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TravisCISample.m; sourceTree = "<group>"; };
+		E536F30018E6BBFC0099C1F1 /* TravisCISampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TravisCISampleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E536F30118E6BBFC0099C1F1 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		E536F30418E6BBFC0099C1F1 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		E536F30B18E6BBFC0099C1F1 /* TravisCISampleTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TravisCISampleTests-Info.plist"; sourceTree = "<group>"; };
+		E536F30D18E6BBFC0099C1F1 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		E536F30F18E6BBFC0099C1F1 /* TravisCISampleTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TravisCISampleTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E536F2ED18E6BBFC0099C1F1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E536F2F418E6BBFC0099C1F1 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E536F2FD18E6BBFC0099C1F1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E536F30818E6BBFC0099C1F1 /* libTravisCISample.a in Frameworks */,
+				E536F30218E6BBFC0099C1F1 /* XCTest.framework in Frameworks */,
+				E536F30518E6BBFC0099C1F1 /* UIKit.framework in Frameworks */,
+				E536F30318E6BBFC0099C1F1 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E536F2E718E6BBFC0099C1F1 = {
+			isa = PBXGroup;
+			children = (
+				E536F2F518E6BBFC0099C1F1 /* TravisCISample */,
+				E536F30918E6BBFC0099C1F1 /* TravisCISampleTests */,
+				E536F2F218E6BBFC0099C1F1 /* Frameworks */,
+				E536F2F118E6BBFC0099C1F1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E536F2F118E6BBFC0099C1F1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E536F2F018E6BBFC0099C1F1 /* libTravisCISample.a */,
+				E536F30018E6BBFC0099C1F1 /* TravisCISampleTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E536F2F218E6BBFC0099C1F1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E536F2F318E6BBFC0099C1F1 /* Foundation.framework */,
+				E536F30118E6BBFC0099C1F1 /* XCTest.framework */,
+				E536F30418E6BBFC0099C1F1 /* UIKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E536F2F518E6BBFC0099C1F1 /* TravisCISample */ = {
+			isa = PBXGroup;
+			children = (
+				E536F2F818E6BBFC0099C1F1 /* TravisCISample.h */,
+				E536F2FA18E6BBFC0099C1F1 /* TravisCISample.m */,
+				E536F2F618E6BBFC0099C1F1 /* Supporting Files */,
+			);
+			path = TravisCISample;
+			sourceTree = "<group>";
+		};
+		E536F2F618E6BBFC0099C1F1 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E536F2F718E6BBFC0099C1F1 /* TravisCISample-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		E536F30918E6BBFC0099C1F1 /* TravisCISampleTests */ = {
+			isa = PBXGroup;
+			children = (
+				E536F30F18E6BBFC0099C1F1 /* TravisCISampleTests.m */,
+				E536F30A18E6BBFC0099C1F1 /* Supporting Files */,
+			);
+			path = TravisCISampleTests;
+			sourceTree = "<group>";
+		};
+		E536F30A18E6BBFC0099C1F1 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E536F30B18E6BBFC0099C1F1 /* TravisCISampleTests-Info.plist */,
+				E536F30C18E6BBFC0099C1F1 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E536F2EF18E6BBFC0099C1F1 /* TravisCISample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E536F31318E6BBFC0099C1F1 /* Build configuration list for PBXNativeTarget "TravisCISample" */;
+			buildPhases = (
+				E536F2EC18E6BBFC0099C1F1 /* Sources */,
+				E536F2ED18E6BBFC0099C1F1 /* Frameworks */,
+				E536F2EE18E6BBFC0099C1F1 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TravisCISample;
+			productName = TravisCISample;
+			productReference = E536F2F018E6BBFC0099C1F1 /* libTravisCISample.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		E536F2FF18E6BBFC0099C1F1 /* TravisCISampleTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E536F31618E6BBFC0099C1F1 /* Build configuration list for PBXNativeTarget "TravisCISampleTests" */;
+			buildPhases = (
+				E536F2FC18E6BBFC0099C1F1 /* Sources */,
+				E536F2FD18E6BBFC0099C1F1 /* Frameworks */,
+				E536F2FE18E6BBFC0099C1F1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E536F30718E6BBFC0099C1F1 /* PBXTargetDependency */,
+			);
+			name = TravisCISampleTests;
+			productName = TravisCISampleTests;
+			productReference = E536F30018E6BBFC0099C1F1 /* TravisCISampleTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E536F2E818E6BBFC0099C1F1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+			};
+			buildConfigurationList = E536F2EB18E6BBFC0099C1F1 /* Build configuration list for PBXProject "TravisCISample" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = E536F2E718E6BBFC0099C1F1;
+			productRefGroup = E536F2F118E6BBFC0099C1F1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E536F2EF18E6BBFC0099C1F1 /* TravisCISample */,
+				E536F2FF18E6BBFC0099C1F1 /* TravisCISampleTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E536F2FE18E6BBFC0099C1F1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E536F30E18E6BBFC0099C1F1 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E536F2EC18E6BBFC0099C1F1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E536F2FB18E6BBFC0099C1F1 /* TravisCISample.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E536F2FC18E6BBFC0099C1F1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E536F31018E6BBFC0099C1F1 /* TravisCISampleTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E536F30718E6BBFC0099C1F1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E536F2EF18E6BBFC0099C1F1 /* TravisCISample */;
+			targetProxy = E536F30618E6BBFC0099C1F1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		E536F30C18E6BBFC0099C1F1 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E536F30D18E6BBFC0099C1F1 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E536F31118E6BBFC0099C1F1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		E536F31218E6BBFC0099C1F1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E536F31418E6BBFC0099C1F1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DSTROOT = /tmp/TravisCISample.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TravisCISample/TravisCISample-Prefix.pch";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		E536F31518E6BBFC0099C1F1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DSTROOT = /tmp/TravisCISample.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TravisCISample/TravisCISample-Prefix.pch";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		E536F31718E6BBFC0099C1F1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TravisCISample/TravisCISample-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "TravisCISampleTests/TravisCISampleTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		E536F31818E6BBFC0099C1F1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TravisCISample/TravisCISample-Prefix.pch";
+				INFOPLIST_FILE = "TravisCISampleTests/TravisCISampleTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E536F2EB18E6BBFC0099C1F1 /* Build configuration list for PBXProject "TravisCISample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E536F31118E6BBFC0099C1F1 /* Debug */,
+				E536F31218E6BBFC0099C1F1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E536F31318E6BBFC0099C1F1 /* Build configuration list for PBXNativeTarget "TravisCISample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E536F31418E6BBFC0099C1F1 /* Debug */,
+				E536F31518E6BBFC0099C1F1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		E536F31618E6BBFC0099C1F1 /* Build configuration list for PBXNativeTarget "TravisCISampleTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E536F31718E6BBFC0099C1F1 /* Debug */,
+				E536F31818E6BBFC0099C1F1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E536F2E818E6BBFC0099C1F1 /* Project object */;
+}
