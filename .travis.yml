@@ -6,4 +6,4 @@ before_install:
 script:
   - make clean test-with-coverage
 after_success:
-  - coveralls -e TravisCISampleTests/
+  - coveralls -e TravisCISampleTests/ -e Pods/
