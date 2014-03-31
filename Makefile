@@ -26,6 +26,3 @@ test-with-coverage:
       TEST_HOST= \
       GCC_INSTRUMENT_PROGRAM_FLOW_ARCS=YES \
       GCC_GENERATE_TEST_COVERAGE_FILES=YES
-
-send-coverage:
-	coveralls

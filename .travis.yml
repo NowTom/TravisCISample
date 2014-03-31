@@ -1,15 +1,8 @@
 language: objective-c
 
 before_install:
-  - brew update
-  - brew install pyenv
-  - eval "$(pyenv init -)"
-  - pyenv install 2.7.6
-  - pyenv global 2.7.6
-  - pyenv rehash
   - pip install cpp-coveralls
-  - pyenv rehash
 script:
   - make clean test-with-coverage
 after_success:
-  - make send-coverage
+  - ./coveralls.sh
