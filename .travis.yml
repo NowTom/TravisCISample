@@ -1,2 +1,3 @@
 language: objective-c
-script: xctool test -project TravisCISample.xcodeproj -scheme TravisCISample -sdk iphonesimulator ONLY_ACTIVE_ARCH=NO
+script: 
+  - make clean test
