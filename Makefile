@@ -1,15 +1,15 @@
-PROJECT = TravisCISample.xcodeproj
+WORKSPACE = TravisCISample.xcworkspace
 TEST_TARGET = TravisCISample
 
 clean:
 	xctool \
       clean \
-      -project ${PROJECT} \
+      -workspace ${WORKSPACE} \
       -scheme ${TEST_TARGET}
 test:
 	xctool \
       test \
-      -project ${PROJECT} \
+      -workspace ${WORKSPACE} \
       -scheme ${TEST_TARGET} \
       -sdk iphonesimulator \
       ONLY_ACTIVE_ARCH=NO
@@ -17,7 +17,7 @@ test:
 test-with-coverage:
 	xctool \
       test \
-      -project ${PROJECT} \
+      -workspace ${WORKSPACE} \
       -scheme ${TEST_TARGET} \
       -sdk iphonesimulator \
       -configuration Debug \
