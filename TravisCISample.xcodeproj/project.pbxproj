@@ -8,14 +8,13 @@
 
 /* Begin PBXBuildFile section */
 		E536F2F418E6BBFC0099C1F1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E536F2F318E6BBFC0099C1F1 /* Foundation.framework */; };
-		E536F2F918E6BBFC0099C1F1 /* TravisCISample.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = E536F2F818E6BBFC0099C1F1 /* TravisCISample.h */; };
-		E536F2FB18E6BBFC0099C1F1 /* TravisCISample.m in Sources */ = {isa = PBXBuildFile; fileRef = E536F2FA18E6BBFC0099C1F1 /* TravisCISample.m */; };
 		E536F30218E6BBFC0099C1F1 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E536F30118E6BBFC0099C1F1 /* XCTest.framework */; };
 		E536F30318E6BBFC0099C1F1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E536F2F318E6BBFC0099C1F1 /* Foundation.framework */; };
 		E536F30518E6BBFC0099C1F1 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E536F30418E6BBFC0099C1F1 /* UIKit.framework */; };
 		E536F30818E6BBFC0099C1F1 /* libTravisCISample.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E536F2F018E6BBFC0099C1F1 /* libTravisCISample.a */; };
 		E536F30E18E6BBFC0099C1F1 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = E536F30C18E6BBFC0099C1F1 /* InfoPlist.strings */; };
-		E536F31018E6BBFC0099C1F1 /* TravisCISampleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E536F30F18E6BBFC0099C1F1 /* TravisCISampleTests.m */; };
+		E536F31B18E978BC0099C1F1 /* Calculator.m in Sources */ = {isa = PBXBuildFile; fileRef = E536F31A18E978BC0099C1F1 /* Calculator.m */; };
+		E536F32118E97A710099C1F1 /* CalculatorTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E536F32018E97A710099C1F1 /* CalculatorTests.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,7 +34,6 @@
 			dstPath = "include/$(PRODUCT_NAME)";
 			dstSubfolderSpec = 16;
 			files = (
-				E536F2F918E6BBFC0099C1F1 /* TravisCISample.h in CopyFiles */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -45,14 +43,15 @@
 		E536F2F018E6BBFC0099C1F1 /* libTravisCISample.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libTravisCISample.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		E536F2F318E6BBFC0099C1F1 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		E536F2F718E6BBFC0099C1F1 /* TravisCISample-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TravisCISample-Prefix.pch"; sourceTree = "<group>"; };
-		E536F2F818E6BBFC0099C1F1 /* TravisCISample.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TravisCISample.h; sourceTree = "<group>"; };
-		E536F2FA18E6BBFC0099C1F1 /* TravisCISample.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TravisCISample.m; sourceTree = "<group>"; };
 		E536F30018E6BBFC0099C1F1 /* TravisCISampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TravisCISampleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E536F30118E6BBFC0099C1F1 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		E536F30418E6BBFC0099C1F1 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
 		E536F30B18E6BBFC0099C1F1 /* TravisCISampleTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TravisCISampleTests-Info.plist"; sourceTree = "<group>"; };
 		E536F30D18E6BBFC0099C1F1 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		E536F30F18E6BBFC0099C1F1 /* TravisCISampleTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TravisCISampleTests.m; sourceTree = "<group>"; };
+		E536F31918E978BC0099C1F1 /* Calculator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Calculator.h; sourceTree = "<group>"; };
+		E536F31A18E978BC0099C1F1 /* Calculator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Calculator.m; sourceTree = "<group>"; };
+		E536F31F18E97A710099C1F1 /* CalculatorTests.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CalculatorTests.h; sourceTree = "<group>"; };
+		E536F32018E97A710099C1F1 /* CalculatorTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CalculatorTests.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -110,9 +109,9 @@
 		E536F2F518E6BBFC0099C1F1 /* TravisCISample */ = {
 			isa = PBXGroup;
 			children = (
-				E536F2F818E6BBFC0099C1F1 /* TravisCISample.h */,
-				E536F2FA18E6BBFC0099C1F1 /* TravisCISample.m */,
 				E536F2F618E6BBFC0099C1F1 /* Supporting Files */,
+				E536F31918E978BC0099C1F1 /* Calculator.h */,
+				E536F31A18E978BC0099C1F1 /* Calculator.m */,
 			);
 			path = TravisCISample;
 			sourceTree = "<group>";
@@ -128,8 +127,9 @@
 		E536F30918E6BBFC0099C1F1 /* TravisCISampleTests */ = {
 			isa = PBXGroup;
 			children = (
-				E536F30F18E6BBFC0099C1F1 /* TravisCISampleTests.m */,
 				E536F30A18E6BBFC0099C1F1 /* Supporting Files */,
+				E536F31F18E97A710099C1F1 /* CalculatorTests.h */,
+				E536F32018E97A710099C1F1 /* CalculatorTests.m */,
 			);
 			path = TravisCISampleTests;
 			sourceTree = "<group>";
@@ -223,7 +223,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E536F2FB18E6BBFC0099C1F1 /* TravisCISample.m in Sources */,
+				E536F31B18E978BC0099C1F1 /* Calculator.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -231,7 +231,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E536F31018E6BBFC0099C1F1 /* TravisCISampleTests.m in Sources */,
+				E536F32118E97A710099C1F1 /* CalculatorTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
